@@ -276,7 +276,7 @@ var TaskListHeaderDefault = function TaskListHeaderDefault(_ref) {
     style: {
       minWidth: rowWidth
     }
-  }, "\xA0Name"), React__default.createElement("div", {
+  }, "\xA0Name HELLO??"), React__default.createElement("div", {
     className: styles.ganttTable_HeaderSeparator,
     style: {
       height: headerHeight * 0.5,
