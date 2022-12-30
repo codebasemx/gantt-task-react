@@ -73,7 +73,7 @@ export const TaskListTableDefault: React.FC<{
                 minWidth: rowWidth,
                 maxWidth: rowWidth,
               }}
-              title={t.name + "22XX" }
+              title={t.name}
             >
               <div className={styles.taskListNameWrapper}>
                 <div
@@ -88,6 +88,24 @@ export const TaskListTableDefault: React.FC<{
                 </div>
                 <div>{t.name}</div>
               </div>
+            </div>
+            <div
+              className={styles.taskListCell}
+              style={{
+                minWidth: rowWidth,
+                maxWidth: rowWidth,
+              }}
+            >
+              &nbsp;{t.origin}
+            </div>
+            <div
+              className={styles.taskListCell}
+              style={{
+                minWidth: rowWidth,
+                maxWidth: rowWidth,
+              }}
+            >
+              &nbsp;{t.destination}
             </div>
             <div
               className={styles.taskListCell}

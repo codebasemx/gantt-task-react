@@ -13,6 +13,8 @@ export interface Task {
   id: string;
   type: TaskType;
   name: string;
+  origin: string;
+  destination: string;
   start: Date;
   end: Date;
   /**
